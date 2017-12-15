@@ -772,6 +772,8 @@ td {
 
 .source_table .covered {
   border-color: #009900; }
+.source_table .partcov {
+  border-color: #ddaa00; }
 .source_table .missed {
   border-color: #990000; }
 .source_table .never {
@@ -782,6 +784,10 @@ td {
   background-color: #cdf2cd; }
 .source_table .covered:nth-child(even) {
   background-color: #dbf2db; }
+.source_table .partcov:nth-child(odd) {
+  background-color: #ecd68e; }
+.source_table .partcov:nth-child(even) {
+  background-color: #ecd68e; }
 .source_table .missed:nth-child(odd) {
   background-color: #f7c0c0; }
 .source_table .missed:nth-child(even) {
