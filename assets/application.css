@@ -748,6 +748,21 @@ td {
     text-align: center;
     border-radius: 6px; }
 
+  .source_table pre .blocks {
+    float: right;
+    margin-left: 10px;
+    padding: 2px 4px;
+    background-color: #444444;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#222222), to(#666666));
+    background: -moz-linear-gradient(#222222, #666666);
+    background: linear-gradient(#222222, #666666);
+    color: white;
+    font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 6px; }
+
 #footer {
   color: #dddddd;
   font-size: 12px;
